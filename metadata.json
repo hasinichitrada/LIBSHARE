@@ -1,0 +1,5 @@
+{
+  "name": "LibShare - Smart Library Sharing",
+  "description": "Collaborative college library app with mandatory 3-student group borrowing and fine tracking.",
+  "requestFramePermissions": []
+}
