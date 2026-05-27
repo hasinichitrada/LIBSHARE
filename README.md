@@ -1,20 +1,27 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# LIBSHARE
 
-# Run and deploy your AI Studio app
+A full-stack college library management system that allows students to borrow textbooks in groups, check availability, and automatically calculate return fines.
 
-This contains everything you need to run your app locally.
+## Features
+- User authentication
+- Book availability tracking
+- Group borrowing system
+- Fine calculation
+- Responsive UI
 
-View your app in AI Studio: https://ai.studio/apps/drive/12zFOqGS3zxy93ESJlmnr8jl-qLsB7oAx
+## Tech Stack
+- Frontend: React, TypeScript
+- Backend: Node.js, Express
+- Database: MongoDB
 
-## Run Locally
+## Installation
 
-**Prerequisites:**  Node.js
+```bash
+npm install
+npm run dev
+```
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Future Improvements
+- Admin dashboard
+- Notifications
+- Payment integration
